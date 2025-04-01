@@ -3,7 +3,7 @@ public class Hello {
         while (true) {
             System.out.println("helloworld");
             try {
-                Thread.sleep(5000); // Print every 5 seconds
+                Thread.sleep(50000); // Print every 5 seconds
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
