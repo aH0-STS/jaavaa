@@ -1,5 +1,12 @@
 public class Hello {
-public static void main (String[] args){
-System.out.println("hello world");
-}
+    public static void main(String[] args) {
+        while (true) {
+            System.out.println("helloworld");
+            try {
+                Thread.sleep(5000); // Print every 5 seconds
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+    }
 }
