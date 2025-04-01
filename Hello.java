@@ -1,9 +1,11 @@
 public class Hello {
     public static void main(String[] args) {
+        System.out.println("helloworld");
+        
+        // Keep the program running indefinitely
         while (true) {
-            System.out.println("helloworld");
             try {
-                Thread.sleep(50000); // Print every 5 seconds
+                Thread.sleep(Long.MAX_VALUE); // Sleep indefinitely
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
